@@ -35,7 +35,7 @@ void mainMenu()
     cout<<"\t|\t|\t|\t|\t|\t|"<<endl;
     cout<<"\t________________________________"<<endl;
 
-    cout<<"Enter teh choice : ";
+    cout<<"Enter the choice : ";
     cin>>lchoice;
     
     Details d;
@@ -44,14 +44,36 @@ void mainMenu()
 
     switch(lchoice)
     {
-        case 1;
+        case 1:
             {
                 cout<<"______Customers______\n"<<endl;
                 d.information()
-                cout<<"Press 1 to go back to Main menu";
+                cout<<"Press any key to go back to Main menu";
                 cin>>back;
                 
+                if(back==1)
+                {
+                    mainMenu();
+                }
+                else{
+                    mainMenu();
+                }
+                break;
             }
+        case 2:
+        {
+            cout<<"_______Book a flight using this system______"<<endl;
+            r.flights();
+            break;
+        }
+        case 3:
+        {
+            cout<<"_______GET YOUR TICKET_______\n"<<endl;
+            t.bill();
+
+            cout<<"Your ticket is printed, you can collect it \n"<<endl;
+            cout<<"Press 1 to display your ticket ";
+        }
     }
 }
 
