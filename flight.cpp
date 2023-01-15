@@ -306,6 +306,12 @@ class registration
                     mainMenu();
                 }
             }
+            default :
+            {
+                cout<<"Invalid input, Redirecting you to the main menu !"<<endl;
+                mainMenu();
+                break;
+            }
         }
     }
 }
