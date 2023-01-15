@@ -316,6 +316,17 @@ class registration
     }
 };
 
+float registration::charges;
+int registration::choice;
+
+Class ticket : public registration, Details
+{
+    public:
+        void Bill()
+        {
+            
+        }
+}
 
 
 void mainMenu()
