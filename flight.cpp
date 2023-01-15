@@ -314,7 +314,9 @@ class registration
             }
         }
     }
-}
+};
+
+
 
 void mainMenu()
 {
