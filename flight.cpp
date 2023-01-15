@@ -126,31 +126,31 @@ class registration
                 cout<<"Your comfort is our priority. Enjoy the journey!"<<endl;
                 cout<<"Following are the flights\n"<<endl;
                 cout<<"1. CA - 209"<<endl;
-                cout<<"\t08-01-2022 8:00AM 10hrs Rs. 14000"<<endl;
+                cout<<"\t08-01-2022 8:00AM 10hrs Rs. 34000"<<endl;
                 cout<<"2. CA - 658"<<endl;
-                cout<<"\t09-01-2022 4:00AM 12hrs Rs. 10000"<<endl;
-                cout<<"3. DUB - 508"<<endl;
-                cout<<"\t11-01-2022 11:00AM 11hrs Rs. 9000"<<endl;
+                cout<<"\t09-01-2022 4:00AM 12hrs Rs. 18000"<<endl;
+                cout<<"3. CA - 508"<<endl;
+                cout<<"\t11-01-2022 11:00AM 11hrs Rs. 14000"<<endl;
 
                 cout<<"\nSelect the flight you want to book : ";
                 cin>>choice1;
 
                 if(choice1==1)
                 {
-                    charges=14000;
-                    cout<<"\nYou have successfully booked the flight DUB - 498"<<endl;
+                    charges=34000;
+                    cout<<"\nYou have successfully booked the flight CA - 209"<<endl;
                     cout<<"You can go back to menu and take the ticket"<<endl;
                 }
                 else if(choice1==2)
                 {
-                    charges=10000;
-                    cout<<"\nYou have successfully booked the flight DUB - 658"<<endl;
+                    charges=18000;
+                    cout<<"\nYou have successfully booked the flight CA - 658"<<endl;
                     cout<<"You can go back to menu and take the ticket"<<endl;
                 }
                 else if(choice1==3)
                 {
-                    charges=9000;
-                    cout<<"\nYou have successfully booked the flight DUB - 508"<<endl;
+                    charges=14000;
+                    cout<<"\nYou have successfully booked the flight CA - 508"<<endl;
                     cout<<"You can go back to menu and take the ticket"<<endl;
                 }
                 else{
