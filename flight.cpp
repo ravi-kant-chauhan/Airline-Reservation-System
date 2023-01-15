@@ -238,6 +238,40 @@ class registration
                     mainMenu();
                 }
             }
+            case 5:
+            {
+                cout<<"________________Welcome to Australian Airlines____________\n"<<endl;
+                cout<<"Your comfort is our priority. Enjoy the journey!"<<endl;
+                cout<<"Following are the flights\n"<<endl;
+                cout<<"1. AS - 209"<<endl;
+                cout<<"\t08-01-2022 8:00AM 10hrs Rs. 45000"<<endl;
+
+                cout<<"\nSelect the flight you want to book : ";
+                cin>>choice1;
+
+                if(choice1==1)
+                {
+                    charges=45000;
+                    cout<<"\nYou have successfully booked the flight AS - 209"<<endl;
+                    cout<<"You can go back to menu and take the ticket"<<endl;
+                }
+                
+                else{
+                    cout<<"Invalid input, shifting to the previous menu"<<endl;
+                    flights();
+                }
+                
+                cout<<"Press any key to go back to the main menu"<<endl;
+                cin>>back;
+
+                if(back==1)
+                {
+                    mainMenu();
+                }
+                else{
+                    mainMenu();
+                }
+            }
         }
     }
 }
