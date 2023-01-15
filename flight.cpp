@@ -176,32 +176,17 @@ class registration
                 cout<<"Following are the flights\n"<<endl;
                 cout<<"1. CA - 209"<<endl;
                 cout<<"\t08-01-2022 8:00AM 10hrs Rs. 34000"<<endl;
-                cout<<"2. CA - 658"<<endl;
-                cout<<"\t09-01-2022 4:00AM 12hrs Rs. 18000"<<endl;
-                cout<<"3. CA - 508"<<endl;
-                cout<<"\t11-01-2022 11:00AM 11hrs Rs. 14000"<<endl;
 
                 cout<<"\nSelect the flight you want to book : ";
                 cin>>choice1;
 
                 if(choice1==1)
                 {
-                    charges=34000;
-                    cout<<"\nYou have successfully booked the flight CA - 209"<<endl;
+                    charges=44000;
+                    cout<<"\nYou have successfully booked the flight UK - 798"<<endl;
                     cout<<"You can go back to menu and take the ticket"<<endl;
                 }
-                else if(choice1==2)
-                {
-                    charges=18000;
-                    cout<<"\nYou have successfully booked the flight CA - 658"<<endl;
-                    cout<<"You can go back to menu and take the ticket"<<endl;
-                }
-                else if(choice1==3)
-                {
-                    charges=14000;
-                    cout<<"\nYou have successfully booked the flight CA - 508"<<endl;
-                    cout<<"You can go back to menu and take the ticket"<<endl;
-                }
+                
                 else{
                     cout<<"Invalid input, shifting to the previous menu"<<endl;
                     flights();
@@ -217,6 +202,11 @@ class registration
                 else{
                     mainMenu();
                 }
+            }
+
+            case 4:
+            {
+                
             }
         }
     }
