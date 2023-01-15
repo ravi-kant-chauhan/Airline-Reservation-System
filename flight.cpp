@@ -324,7 +324,15 @@ Class ticket : public registration, Details
     public:
         void Bill()
         {
-            
+            string destination="";
+            ofstream outf("records.txt");
+            {
+                outf<<"__________XYZ Airlines_________"<<endl;
+                outf<<"______________Ticket___________"<<endl;
+                outf<<"_______________________________"<<endl;
+
+                cout<<"Customer ID:"<<Details::cId<<endl;
+            }
         }
 }
 
