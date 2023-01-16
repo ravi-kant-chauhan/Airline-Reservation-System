@@ -326,12 +326,21 @@ Class ticket : public registration, Details
         {
             string destination="";
             ofstream outf("records.txt");
-            {
+            {   
                 outf<<"__________XYZ Airlines_________"<<endl;
                 outf<<"______________Ticket___________"<<endl;
                 outf<<"_______________________________"<<endl;
 
-                cout<<"Customer ID:"<<Details::cId<<endl;
+                outf<<"Customer ID:"<<Details::cId<<endl;
+                outf<<"Customer Name:"<<Details::name<<endl;
+                outf<<"Customer Gender:"<<Details::gender<<endl;
+                outf<<"\tDescription"<<endl;
+
+                if(registration::choice ==1)
+                {
+                    destination="Dubai";
+                }
+                
             }
         }
 }
