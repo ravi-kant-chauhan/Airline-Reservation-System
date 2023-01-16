@@ -363,8 +363,25 @@ Class ticket : public registration, Details
                 outf<<"Destination\t\t"<<destination<<endl;
                 outf<<"Flight cost :\t\t"<<registration::charges<<endl;
             }
+            outf.close();
         }
-}
+        void dispBill()
+        {
+            ifstream ifs("records.txt");
+            {
+                if(!ifs)
+                {
+                    cout<<"File error!"<<endl;
+                }
+                while(!ifs.eof())
+                {
+                    ifs.getline(arr, 100);
+                    cout<<arr<<endl;
+                }
+            }
+            ifs.close();
+        }
+};
 
 
 void mainMenu()
