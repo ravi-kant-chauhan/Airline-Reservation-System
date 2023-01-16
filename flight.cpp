@@ -340,6 +340,10 @@ Class ticket : public registration, Details
                 {
                     destination="Dubai";
                 }
+                else if(registration::choice==2)
+                {
+                    destination="Canada";
+                }
                 
             }
         }
