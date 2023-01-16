@@ -344,7 +344,24 @@ Class ticket : public registration, Details
                 {
                     destination="Canada";
                 }
-                
+                else if(registration::choice==3)
+                {
+                    destination="UK";
+                }
+                else if(registration::choice==4)
+                {
+                    destination="USA";
+                }
+                else if(registration::choice==5)
+                {
+                    destination="Australia";
+                }
+                else if(registration::choice==6)
+                {
+                    destination="Europe";
+                }
+                outf<<"Destination\t\t"<<destination<<endl;
+                outf<<"Flight cost :\t\t"<<registration::charges<<endl;
             }
         }
 }
