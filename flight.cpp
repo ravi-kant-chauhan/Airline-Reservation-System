@@ -27,7 +27,7 @@ class Details
     static int cId;
     char arr[100];
 
-    void information
+    void information()
     {
         cout<<"\nEnter the customer ID : ";
         cin>>cId;
@@ -415,7 +415,7 @@ void mainMenu()
         case 1:
             {
                 cout<<"______Customers______\n"<<endl;
-                d.information()
+                d.information();
                 cout<<"Press any key to go back to Main menu";
                 cin>>back;
                 
@@ -437,7 +437,7 @@ void mainMenu()
         case 3:
         {
             cout<<"_______GET YOUR TICKET_______\n"<<endl;
-            t.bill();
+            t.dispbill();
 
             cout<<"Your ticket is printed, you can collect it \n"<<endl;
             cout<<"Press 1 to display your ticket ";
@@ -447,7 +447,7 @@ void mainMenu()
             if(back==1)
             {
 
-                t.display();
+                t.dispBill();
                 cout<<"Press any key to go back to main menu:";
                 cin>>back;
                 if(back==1)
