@@ -466,12 +466,12 @@ void mainMenu()
         }
         case 4:
         {
-            cout<<"\n\n\t_________Thank You_______"<<endl;
+            cout<<"\n\n\t_________Thank You________"<<endl;
             break;
         }
         default :
         {
-            cout<<"Invalid input, Please try again!\n"<<endl;
+            cout<<"Invalid input, Please try again! \n"<<endl;
             mainMenu();
             break;
         }
