@@ -478,8 +478,6 @@ void mainMenu()
     }
 }
 
-
-
 int main()
 {
     Management Mobj;
