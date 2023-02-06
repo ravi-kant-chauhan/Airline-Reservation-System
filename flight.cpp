@@ -446,7 +446,6 @@ void mainMenu()
 
             if(back==1)
             {
-
                 t.dispBill();
                 cout<<"Press any key to go back to main menu:";
                 cin>>back;
